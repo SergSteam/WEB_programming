@@ -19,6 +19,7 @@ add_new_element("Сделать задание #3 по web-программир�
 var _input = document.createElement("input");
 _input.id = "add_task_input";
 var _add_button = document.createElement("button");
+_add_button.id = "add_task";
 _add_button.innerHTML = "Добавить";
 _add_button.addEventListener("click", function () { add_new_element(_input.value) });
 _div.appendChild(_input);
